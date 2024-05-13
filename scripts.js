@@ -1,13 +1,6 @@
-document.addEventListener('mousemove', parallax);
+/*
+Nothing to see here :)
+Made by @jovigod888
 
-function parallax(e) {
-    const layer = document.querySelectorAll('.layer');
-
-    layer.forEach(item => {
-        const depth = item.getAttribute('data-depth');
-        const moveX = (e.clientX * depth) / 250;
-        const moveY = (e.clientY * depth) / 250;
-
-        item.style.transform = `translateX(${moveX}px) translateY(${moveY}px)`;
-    });
-}
+https://github.com/jovigod888
+*/
